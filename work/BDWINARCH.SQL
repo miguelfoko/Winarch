@@ -74,6 +74,7 @@ create table "boites"
     finperiode timestamp null  ,
     dateexpiration timestamp null,
      recu boolean,
+    rayonarchivage character varying,
    constraint pk_boites primary key (boiteid)
    );
 
